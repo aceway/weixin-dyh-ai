@@ -1,0 +1,11 @@
+django==3.2.24
+pytz==2024.1
+pycrypto==2.6.1
+requests==2.27.1
+tencentcloud-sdk-python==3.0.1093
+
+#python3使用:
+mysqlclient==2.0.0
+
+dashscope>=1.14.1
+requests>=2.27.1
