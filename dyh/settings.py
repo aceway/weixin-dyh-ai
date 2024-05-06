@@ -97,6 +97,9 @@ DATABASES = {
         'PASSWORD': 'W31x1n@PWD',             # Not used with sqlite3.
         'HOST':   'localhost',                # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '3306',                       # Set to empty string for default. Not used with sqlite3.
+        'OPTIONS': {
+            'charset': 'utf8mb4',
+        },
     }
 }
 
